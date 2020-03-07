@@ -1,0 +1,27 @@
+Mar 07 08:25:38.924 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 07 08:25:38.926 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59011.
+Mar 07 08:25:39.399 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 07 08:25:39.400 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 07 08:25:39.401 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 07 08:25:39.402 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\6f377e98-54c5-453d-a49f-166d53b09263 
+Mar 07 08:25:39.446 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\6f377e98-54c5-453d-a49f-166d53b09263
+Mar 07 08:25:39.447 HYPERVISOR: exec_cmd: vm create R4 4 c3725 
+Mar 07 08:25:39.454 VM: VM R4 created.
+Mar 07 08:25:39.456 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5005 
+Mar 07 08:25:39.456 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Mar 07 08:25:39.458 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Mar 07 08:25:39.459 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Mar 07 08:25:39.460 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 07 08:25:39.461 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x602467a4 
+Mar 07 08:25:39.463 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:25:39.464 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Mar 07 08:25:39.655 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:25:41.557 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:28:06.455 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:32:17.307 HYPERVISOR: exec_cmd: nio create_udp udp-fb821dda-1fc8-432b-97db-ea122320b839 10030 127.0.0.1 10031 
+Mar 07 08:32:17.570 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-fb821dda-1fc8-432b-97db-ea122320b839 
+Mar 07 08:32:17.572 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 07 08:32:57.050 HYPERVISOR: exec_cmd: nio create_udp udp-17c57adb-7f7f-4388-ba1f-b320916d84ad 10048 127.0.0.1 10049 
+Mar 07 08:32:57.057 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-17c57adb-7f7f-4388-ba1f-b320916d84ad 
+Mar 07 08:32:57.058 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 07 08:33:10.798 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 

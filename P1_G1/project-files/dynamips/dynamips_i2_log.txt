@@ -1,0 +1,28 @@
+Mar 07 08:25:26.482 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 07 08:25:26.484 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58980.
+Mar 07 08:25:26.940 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 07 08:25:26.941 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 07 08:25:26.942 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 07 08:25:26.943 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\4ba51d51-450b-4b7f-9e77-610e9c373ebc 
+Mar 07 08:25:26.956 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\4ba51d51-450b-4b7f-9e77-610e9c373ebc
+Mar 07 08:25:26.956 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Mar 07 08:25:26.961 VM: VM R2 created.
+Mar 07 08:25:26.963 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5003 
+Mar 07 08:25:26.963 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Mar 07 08:25:26.965 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Mar 07 08:25:26.966 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Mar 07 08:25:26.968 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 07 08:25:26.969 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x602467a4 
+Mar 07 08:25:27.008 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:25:27.009 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Mar 07 08:25:27.254 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:25:28.745 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:25:43.692 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:28:09.118 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 07 08:31:54.424 HYPERVISOR: exec_cmd: nio create_udp udp-da30c31c-bbfa-4b27-9d44-ce277718784c 10022 127.0.0.1 10023 
+Mar 07 08:31:54.714 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-da30c31c-bbfa-4b27-9d44-ce277718784c 
+Mar 07 08:31:54.715 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 07 08:32:48.278 HYPERVISOR: exec_cmd: nio create_udp udp-033d7013-2b27-4c67-98b7-03c8364555a4 10036 127.0.0.1 10037 
+Mar 07 08:32:48.305 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-033d7013-2b27-4c67-98b7-03c8364555a4 
+Mar 07 08:32:48.306 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 07 08:33:12.934 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
