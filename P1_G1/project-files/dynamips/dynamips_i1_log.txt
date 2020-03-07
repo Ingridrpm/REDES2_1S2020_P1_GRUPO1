@@ -1,0 +1,54 @@
+Mar 07 08:16:30.585 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 07 08:16:30.586 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58783.
+Mar 07 08:16:30.896 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 07 08:16:30.897 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 07 08:16:31.114 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 07 08:16:31.116 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\4c3b20e0-9e27-4c45-9a84-e55cb58d98c4 
+Mar 07 08:16:31.117 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\4c3b20e0-9e27-4c45-9a84-e55cb58d98c4
+Mar 07 08:16:31.117 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Mar 07 08:16:31.148 VM: VM R1 created.
+Mar 07 08:16:31.150 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Mar 07 08:16:31.150 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Mar 07 08:16:31.152 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Mar 07 08:16:31.153 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Mar 07 08:16:31.154 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:16:31.155 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60bf8ba0 
+Mar 07 08:16:31.196 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 07 08:16:31.197 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.1780.0000 
+Mar 07 08:16:31.198 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Mar 07 08:16:31.199 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:16:31.200 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-4T 
+Mar 07 08:16:31.201 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:16:31.202 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Mar 07 08:16:43.122 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 07 08:16:44.652 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 07 08:16:44.684 VM: VM Ghost created.
+Mar 07 08:16:44.685 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 07 08:16:44.686 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 07 08:16:44.687 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Mar 07 08:16:44.689 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 07 08:16:44.767 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 07 08:16:44.768 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 07 08:16:46.053 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 07 08:16:46.231 VM: VM Ghost shutdown.
+Mar 07 08:16:46.231 VM: VM Ghost destroyed.
+Mar 07 08:16:46.367 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:16:46.370 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Mar 07 08:16:46.371 HYPERVISOR: exec_cmd: vm start R1 
+Mar 07 08:17:15.891 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:17:15.892 HYPERVISOR: exec_cmd: vm stop R1 
+Mar 07 08:17:16.061 VM: VM R1 shutdown.
+Mar 07 08:17:16.062 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 07 08:17:52.673 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:17:52.673 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 2 0 
+Mar 07 08:17:52.673 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:17:52.674 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-16ESW 
+Mar 07 08:18:15.662 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:18:15.662 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 2 0 
+Mar 07 08:18:15.662 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:18:15.663 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Mar 07 08:18:28.606 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 07 08:19:36.851 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:19:36.852 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 07 08:19:56.903 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 07 08:19:56.903 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 2 0 
