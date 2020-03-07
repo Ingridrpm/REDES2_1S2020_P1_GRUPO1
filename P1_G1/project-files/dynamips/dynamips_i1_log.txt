@@ -57,6 +57,8 @@ Mar 07 08:25:35.117 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/toshiba/GNS3/im
 Mar 07 08:26:22.000 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
 Mar 07 08:26:30.957 HYPERVISOR: exec_cmd: vm get_status R1 
 Mar 07 08:26:30.957 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Mar 07 08:28:11.051 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 07 08:32:47.985 HYPERVISOR: exec_cmd: nio create_udp udp-770087d4-35fe-43c0-bf41-32f1f99136a4 10034 127.0.0.1 10035 
 Mar 07 08:32:48.241 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-770087d4-35fe-43c0-bf41-32f1f99136a4 
 Mar 07 08:32:48.243 HYPERVISOR: exec_cmd: vm get_status R1 
 Mar 07 08:32:51.613 HYPERVISOR: exec_cmd: nio create_udp udp-996efdcd-eba8-464a-867a-2994eaf0a8ff 10040 127.0.0.1 10041 
