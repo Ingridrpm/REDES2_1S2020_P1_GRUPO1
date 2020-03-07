@@ -1,0 +1,38 @@
+==================modo truncal=================
+-------------------R2, R3, R4-----------------
+conf t
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,1002-1005
+exit
+
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,1002-1005
+end
+
+
+sh int trunk
+
+write
+
+----------------------R1----------------------
+conf t
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,1002-1005
+exit
+
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,1002-1005
+exit
+
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,1002-1005
+end
+
+sh int trunk
+
+write

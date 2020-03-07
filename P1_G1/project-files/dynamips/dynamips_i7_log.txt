@@ -35,3 +35,8 @@ Mar 07 08:31:35.837 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3
 Mar 07 08:31:40.668 HYPERVISOR: exec_cmd: nio create_udp udp-a3ca2352-1bec-466a-a79a-444e9d040d05 10018 127.0.0.1 10019 
 Mar 07 08:31:40.669 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-a3ca2352-1bec-466a-a79a-444e9d040d05 
 Mar 07 08:31:40.683 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-a3ca2352-1bec-466a-a79a-444e9d040d05 1 
+Mar 07 09:21:46.784 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-3 udp-78614d18-a752-4cb2-aa41-0386d735d1a9 1 
+Mar 07 09:21:46.785 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-3 udp-80dc6fe5-6667-4d48-9249-6bfc777afe8c 1 
+Mar 07 09:21:46.786 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-e1b9b2a5-c8c4-40c7-ae20-15198e1332a0 1 
+Mar 07 09:21:46.787 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-6fe308dd-a2e3-4ee9-825a-b889de1933ca 1 
+Mar 07 09:21:46.787 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-a3ca2352-1bec-466a-a79a-444e9d040d05 1 

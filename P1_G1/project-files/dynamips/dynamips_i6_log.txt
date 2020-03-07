@@ -33,3 +33,33 @@ Mar 07 08:31:18.120 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2
 Mar 07 08:31:24.987 HYPERVISOR: exec_cmd: nio create_udp udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 10012 127.0.0.1 10013 
 Mar 07 08:31:24.988 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 
 Mar 07 08:31:24.996 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 1 
+Mar 07 09:03:49.776 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-2762a72c-8224-4bd7-a054-dcef0566008a 1 
+Mar 07 09:03:49.794 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-6e5ddf3a-659d-4887-a1dc-7abf6fd252f5 1 
+Mar 07 09:03:49.796 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-4fb7078b-74e4-4165-9c8d-e957b8dfccd1 1 
+Mar 07 09:03:49.799 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-643342ab-edd0-4eac-9895-472156969292 1 
+Mar 07 09:03:49.800 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 1 
+Mar 07 09:05:43.852 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-2762a72c-8224-4bd7-a054-dcef0566008a 1 
+Mar 07 09:05:43.853 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-6e5ddf3a-659d-4887-a1dc-7abf6fd252f5 1 
+Mar 07 09:05:43.855 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-4fb7078b-74e4-4165-9c8d-e957b8dfccd1 1 
+Mar 07 09:05:43.855 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-643342ab-edd0-4eac-9895-472156969292 1 
+Mar 07 09:05:43.856 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 1 
+Mar 07 09:05:45.893 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-2762a72c-8224-4bd7-a054-dcef0566008a 1 
+Mar 07 09:05:45.893 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-6e5ddf3a-659d-4887-a1dc-7abf6fd252f5 1 
+Mar 07 09:05:45.894 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-4fb7078b-74e4-4165-9c8d-e957b8dfccd1 1 
+Mar 07 09:05:45.895 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-643342ab-edd0-4eac-9895-472156969292 1 
+Mar 07 09:05:45.895 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 1 
+Mar 07 09:06:19.628 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-2762a72c-8224-4bd7-a054-dcef0566008a 1 
+Mar 07 09:06:19.631 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-6e5ddf3a-659d-4887-a1dc-7abf6fd252f5 1 
+Mar 07 09:06:19.637 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-4fb7078b-74e4-4165-9c8d-e957b8dfccd1 1 
+Mar 07 09:06:19.642 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-643342ab-edd0-4eac-9895-472156969292 1 
+Mar 07 09:06:19.646 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 1 
+Mar 07 09:19:07.548 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-2762a72c-8224-4bd7-a054-dcef0566008a 1 
+Mar 07 09:19:07.549 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-6e5ddf3a-659d-4887-a1dc-7abf6fd252f5 1 
+Mar 07 09:19:07.549 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-4fb7078b-74e4-4165-9c8d-e957b8dfccd1 1 
+Mar 07 09:19:07.550 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-643342ab-edd0-4eac-9895-472156969292 1 
+Mar 07 09:19:07.551 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 1 
+Mar 07 09:20:48.679 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-2762a72c-8224-4bd7-a054-dcef0566008a 1 
+Mar 07 09:20:48.680 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-6e5ddf3a-659d-4887-a1dc-7abf6fd252f5 1 
+Mar 07 09:20:48.681 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-4fb7078b-74e4-4165-9c8d-e957b8dfccd1 1 
+Mar 07 09:20:48.681 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-643342ab-edd0-4eac-9895-472156969292 1 
+Mar 07 09:20:48.682 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-3e315f95-8eff-4676-93f6-8e0b46e66bdc 1 
