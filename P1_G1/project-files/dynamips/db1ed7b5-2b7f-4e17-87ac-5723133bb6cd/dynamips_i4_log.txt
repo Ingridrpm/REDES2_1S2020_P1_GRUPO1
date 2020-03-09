@@ -1,0 +1,43 @@
+Mar 08 17:27:57.360 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 08 17:27:57.360 HYPERVISOR: Started on TCP port = 55532.
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ingri\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 08 17:27:57.860 GENERAL: working_dir=C:\Users\ingri\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ingri\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\1ad21c50-fc85-4834-bb7d-ea4bfc976c49 
+Mar 08 17:27:57.860 GENERAL: working_dir=C:\Users\ingri\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\1ad21c50-fc85-4834-bb7d-ea4bfc976c49
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Mar 08 17:27:57.860 VM: VM R1 created.
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5029 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x602467a4 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/ingri/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.2e70.0000 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 17:27:57.860 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Mar 08 17:28:00.470 HYPERVISOR: exec_cmd: nio create_udp udp-10aeb67f-5ac8-4c7a-90dd-0dc6e57ddb96 10020 127.0.0.1 10021 
+Mar 08 17:28:01.314 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-10aeb67f-5ac8-4c7a-90dd-0dc6e57ddb96 
+Mar 08 17:28:01.314 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 17:28:01.580 HYPERVISOR: exec_cmd: nio create_udp udp-36d6f395-fe39-4ca9-8e75-a71b78a84813 10026 127.0.0.1 10027 
+Mar 08 17:28:01.595 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-36d6f395-fe39-4ca9-8e75-a71b78a84813 
+Mar 08 17:28:01.595 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 17:28:01.955 HYPERVISOR: exec_cmd: nio create_udp udp-7ddff4cf-588f-4145-85de-df6aedb576a1 10032 127.0.0.1 10033 
+Mar 08 17:28:01.970 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-7ddff4cf-588f-4145-85de-df6aedb576a1 
+Mar 08 17:28:01.970 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 17:39:55.545 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 08 17:39:55.547 VM: VM Ghost created.
+Mar 08 17:39:55.550 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/ingri/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 08 17:39:55.551 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 08 17:39:55.552 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\ingri\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost' 
+Mar 08 17:39:55.552 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 08 17:39:55.748 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 08 17:39:55.748 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 08 17:40:09.619 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 08 17:40:21.454 VM: VM Ghost shutdown.
+Mar 08 17:40:21.454 VM: VM Ghost destroyed.
+Mar 08 17:40:22.110 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 17:40:22.188 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Mar 08 17:40:22.219 HYPERVISOR: exec_cmd: vm start R1 
