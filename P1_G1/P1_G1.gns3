@@ -19,7 +19,7 @@
             {
                 "drawing_id": "5e9a72db-cad7-425c-8c13-041527976a9c",
                 "rotation": 0,
-                "svg": "<svg height=\"50\" width=\"110\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.0.0/12\n</text></svg>",
+                "svg": "<svg height=\"40\" width=\"84\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.0.0/12\n</text></svg>",
                 "x": -255,
                 "y": -349,
                 "z": 1
@@ -27,7 +27,7 @@
             {
                 "drawing_id": "e2cb0fa8-47f9-4541-9275-8baa73f7ccad",
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"121\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.64.0.0/12</text></svg>",
+                "svg": "<svg height=\"24\" width=\"92\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.64.0.0/12</text></svg>",
                 "x": 110,
                 "y": -284,
                 "z": 1
@@ -35,15 +35,15 @@
             {
                 "drawing_id": "ae919a0a-71e0-4328-b772-64a5673b0e6a",
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"132\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.128.0.0/12</text></svg>",
-                "x": 374,
-                "y": -352,
+                "svg": "<svg height=\"24\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.128.0.0/12</text></svg>",
+                "x": 375,
+                "y": -353,
                 "z": 1
             },
             {
                 "drawing_id": "c5e1c59b-5b53-44fe-879e-d0f6fad3bdc8",
                 "rotation": 0,
-                "svg": "<svg height=\"50\" width=\"78\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.0.2\n</text></svg>",
+                "svg": "<svg height=\"40\" width=\"60\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.0.2\n</text></svg>",
                 "x": -423,
                 "y": -219,
                 "z": 1
@@ -51,7 +51,7 @@
             {
                 "drawing_id": "b5865fcb-704b-4194-a77c-11a67e2d32cb",
                 "rotation": 0,
-                "svg": "<svg height=\"50\" width=\"78\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.0.1\n</text></svg>",
+                "svg": "<svg height=\"40\" width=\"60\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.0.1\n</text></svg>",
                 "x": -41,
                 "y": -450,
                 "z": 1
@@ -59,7 +59,7 @@
             {
                 "drawing_id": "6ce1196c-e150-43f4-b70e-26c3ade9d89d",
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"89\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.64.0.1</text></svg>",
+                "svg": "<svg height=\"24\" width=\"68\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.64.0.1</text></svg>",
                 "x": 140,
                 "y": -395,
                 "z": 1
@@ -67,7 +67,7 @@
             {
                 "drawing_id": "915457b9-e1f7-4ffe-81c0-a16e539ff626",
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.128.0.1</text></svg>",
+                "svg": "<svg height=\"24\" width=\"76\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.128.0.1</text></svg>",
                 "x": 186,
                 "y": -451,
                 "z": 1
@@ -75,7 +75,7 @@
             {
                 "drawing_id": "02c1f836-6926-41f9-b940-fa4e1521edcf",
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"89\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.64.0.2</text></svg>",
+                "svg": "<svg height=\"24\" width=\"68\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.64.0.2</text></svg>",
                 "x": 114,
                 "y": -209,
                 "z": 1
@@ -83,7 +83,7 @@
             {
                 "drawing_id": "6e9cb683-96c0-48f0-b24a-b6b45424b86f",
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.128.0.2</text></svg>",
+                "svg": "<svg height=\"24\" width=\"76\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.128.0.2</text></svg>",
                 "x": 653,
                 "y": -236,
                 "z": 1
@@ -298,8 +298,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "s1/0",
-                            "x": 33,
-                            "y": 22
+                            "x": 84,
+                            "y": -5
                         },
                         "node_id": "38e83e98-269b-4a54-81a6-091a447bb1a4",
                         "port_number": 0
@@ -559,7 +559,7 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5000,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -640,7 +640,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5001,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -718,7 +718,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5002,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -1079,7 +1079,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5006,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
@@ -1104,7 +1104,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5008,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
