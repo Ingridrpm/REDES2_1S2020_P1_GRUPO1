@@ -1,0 +1,21 @@
+Mar 11 22:08:08.660 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 11 22:08:08.662 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63124.
+Mar 11 22:08:09.085 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 11 22:08:09.087 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 11 22:08:09.088 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 11 22:08:09.088 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-3 
+Mar 11 22:08:12.303 HYPERVISOR: exec_cmd: nio create_udp udp-c8a94414-e9ca-40c5-89cb-56f6f5abde74 10002 127.0.0.1 10003 
+Mar 11 22:08:12.304 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-c8a94414-e9ca-40c5-89cb-56f6f5abde74 
+Mar 11 22:08:12.307 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-3 udp-c8a94414-e9ca-40c5-89cb-56f6f5abde74 1 
+Mar 11 22:08:12.443 HYPERVISOR: exec_cmd: nio create_udp udp-0985f0fb-e44a-4878-b747-2faab9b9be1a 10005 127.0.0.1 10004 
+Mar 11 22:08:12.444 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-0985f0fb-e44a-4878-b747-2faab9b9be1a 
+Mar 11 22:08:12.451 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-3 udp-0985f0fb-e44a-4878-b747-2faab9b9be1a 1 
+Mar 11 22:08:12.523 HYPERVISOR: exec_cmd: nio create_udp udp-8cc4c90d-5710-40bb-b067-3dd509dbbf9a 10006 127.0.0.1 10007 
+Mar 11 22:08:12.523 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-8cc4c90d-5710-40bb-b067-3dd509dbbf9a 
+Mar 11 22:08:12.534 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-8cc4c90d-5710-40bb-b067-3dd509dbbf9a 1 
+Mar 11 22:08:12.639 HYPERVISOR: exec_cmd: nio create_udp udp-f2272ddc-41a5-4339-bdfb-c14ea0cf8528 10008 127.0.0.1 10009 
+Mar 11 22:08:12.639 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-f2272ddc-41a5-4339-bdfb-c14ea0cf8528 
+Mar 11 22:08:12.660 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-f2272ddc-41a5-4339-bdfb-c14ea0cf8528 1 
+Mar 11 22:08:12.806 HYPERVISOR: exec_cmd: nio create_udp udp-118397ec-0e67-4c82-b74c-e15dd6f67bb2 10010 127.0.0.1 10011 
+Mar 11 22:08:12.806 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-118397ec-0e67-4c82-b74c-e15dd6f67bb2 
+Mar 11 22:08:12.825 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-118397ec-0e67-4c82-b74c-e15dd6f67bb2 1 

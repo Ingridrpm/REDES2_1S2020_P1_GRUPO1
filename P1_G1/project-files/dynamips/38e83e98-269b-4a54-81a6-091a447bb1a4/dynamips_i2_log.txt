@@ -1,0 +1,36 @@
+Mar 11 22:08:08.032 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 11 22:08:08.034 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63121.
+Mar 11 22:08:08.465 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 11 22:08:08.466 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 11 22:08:08.466 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 11 22:08:08.467 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-2 
+Mar 11 22:08:12.199 HYPERVISOR: exec_cmd: nio create_udp udp-cc715677-ac71-42bd-b645-eddad48eaeeb 10000 127.0.0.1 10001 
+Mar 11 22:08:12.200 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-cc715677-ac71-42bd-b645-eddad48eaeeb 
+Mar 11 22:08:12.204 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-cc715677-ac71-42bd-b645-eddad48eaeeb 1 
+Mar 11 22:08:12.420 HYPERVISOR: exec_cmd: nio create_udp udp-43389fae-f0b4-49da-808c-b7bd8d851d40 10004 127.0.0.1 10005 
+Mar 11 22:08:12.420 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-43389fae-f0b4-49da-808c-b7bd8d851d40 
+Mar 11 22:08:12.431 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-43389fae-f0b4-49da-808c-b7bd8d851d40 1 
+Mar 11 22:08:17.044 HYPERVISOR: exec_cmd: nio create_udp udp-7ae318a0-d202-4755-8633-5a6b89a17eb0 10042 127.0.0.1 10043 
+Mar 11 22:08:17.044 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-7ae318a0-d202-4755-8633-5a6b89a17eb0 
+Mar 11 22:08:17.065 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-7ae318a0-d202-4755-8633-5a6b89a17eb0 1 
+Mar 11 22:08:17.182 HYPERVISOR: exec_cmd: nio create_udp udp-a8787032-fb2d-4abb-8013-f7b7256d70a2 10044 127.0.0.1 10045 
+Mar 11 22:08:17.183 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-a8787032-fb2d-4abb-8013-f7b7256d70a2 
+Mar 11 22:08:17.190 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-a8787032-fb2d-4abb-8013-f7b7256d70a2 1 
+Mar 11 22:08:17.340 HYPERVISOR: exec_cmd: nio create_udp udp-c011320c-1762-4fbd-b0e0-ed42e9477220 10046 127.0.0.1 10047 
+Mar 11 22:08:17.341 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-c011320c-1762-4fbd-b0e0-ed42e9477220 
+Mar 11 22:08:17.355 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-c011320c-1762-4fbd-b0e0-ed42e9477220 1 
+Mar 11 22:27:07.097 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-2 udp-7ae318a0-d202-4755-8633-5a6b89a17eb0 
+Mar 11 22:27:07.099 HYPERVISOR: exec_cmd: nio delete udp-7ae318a0-d202-4755-8633-5a6b89a17eb0 
+Mar 11 22:27:13.891 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-2 udp-a8787032-fb2d-4abb-8013-f7b7256d70a2 
+Mar 11 22:27:13.892 HYPERVISOR: exec_cmd: nio delete udp-a8787032-fb2d-4abb-8013-f7b7256d70a2 
+Mar 11 22:27:17.536 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-2 udp-c011320c-1762-4fbd-b0e0-ed42e9477220 
+Mar 11 22:27:17.539 HYPERVISOR: exec_cmd: nio delete udp-c011320c-1762-4fbd-b0e0-ed42e9477220 
+Mar 11 22:27:56.252 HYPERVISOR: exec_cmd: nio create_udp udp-79d5dc23-1a37-4027-a9b1-0bab04c1112b 10042 127.0.0.1 10043 
+Mar 11 22:27:56.254 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-79d5dc23-1a37-4027-a9b1-0bab04c1112b 
+Mar 11 22:27:56.257 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-79d5dc23-1a37-4027-a9b1-0bab04c1112b 1 
+Mar 11 22:28:01.768 HYPERVISOR: exec_cmd: nio create_udp udp-b36c661d-442c-480b-8514-2e9af0e71917 10044 127.0.0.1 10045 
+Mar 11 22:28:01.769 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-b36c661d-442c-480b-8514-2e9af0e71917 
+Mar 11 22:28:01.770 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-b36c661d-442c-480b-8514-2e9af0e71917 1 
+Mar 11 22:28:04.922 HYPERVISOR: exec_cmd: nio create_udp udp-d93b823c-40b6-47e6-9bb9-267500be1acb 10046 127.0.0.1 10047 
+Mar 11 22:28:04.923 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-d93b823c-40b6-47e6-9bb9-267500be1acb 
+Mar 11 22:28:04.935 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-d93b823c-40b6-47e6-9bb9-267500be1acb 1 
