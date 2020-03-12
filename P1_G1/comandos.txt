@@ -46,3 +46,28 @@ exit
 sh int trunk
 
 write
+
+=====================router rip==================
+----------------------R1------------------
+conf t
+router rip
+version 2
+network 10.64.0.0
+network 10.128.0.0
+end
+
+---------------------R3----------------------
+conf t
+router rip
+version 2
+network 10.64.0.0
+end
+
+------------------------R4----------------------
+conf t
+router rip
+version 2
+network 10.128.0.0
+end
+
+sh ip protocol
