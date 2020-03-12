@@ -1,0 +1,22 @@
+!-- Configuracion de ip en puerto serial
+
+conf t
+int s1/0
+ip address 10.0.0.1 255.240.0.0
+shutdown
+no shutdown
+exit
+
+int s1/1
+ip address 10.64.0.1 255.240.0.0
+shutdown
+no shutdown
+exit
+
+int s1/2
+ip address 10.128.0.1 255.240.0.0
+shutdown
+no shutdown
+end
+
+write memory
