@@ -107,3 +107,33 @@ sh ip route
 R2: 192.168.30.2
 R3: 192.168.10.2
 R4: 192.168.20.2
+
+================NAT==================
+---------------------R1-----------------------
+conf t
+interface fastethernet 0/0
+ip nat inside
+exit
+interface fastethernet 0/1
+ip nat inside
+exit
+interface fastethernet 1/0
+ip nat inside
+exit
+
+interface fastethernet 2/0
+ip address dhcp
+ip nat outside
+no shutdown
+exit
+
+access-list 1 permit 192.168.30.0 0.0.0.255
+access-list 1 permit 192.168.10.0 0.0.0.255
+access-list 1 permit 192.168.20.0 0.0.0.255
+ip nat pool DYNAMICNAT 192.168.1.20 192.168.1.25 netmask 255.255.255.0
+ip nat inside source list 1 pool DYNAMICNAT
+exit
+copy running-config startup-config
+
+ping 8.8.8.8.8
+ping 172.217.15.206

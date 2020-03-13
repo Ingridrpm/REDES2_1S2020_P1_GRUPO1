@@ -1,18 +1,47 @@
-Mar 12 23:08:57.755 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-Mar 12 23:08:57.757 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50803.
-Mar 12 23:08:58.223 HYPERVISOR: exec_cmd: hypervisor version 
-Mar 12 23:08:58.224 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
-Mar 12 23:08:58.224 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
-Mar 12 23:08:58.225 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-2 
-Mar 12 23:08:58.896 HYPERVISOR: exec_cmd: nio create_udp udp-c643a42d-6db6-422c-96ef-222de81b7b56 10000 127.0.0.1 10001 
-Mar 12 23:08:58.898 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-c643a42d-6db6-422c-96ef-222de81b7b56 
-Mar 12 23:08:58.905 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-c643a42d-6db6-422c-96ef-222de81b7b56 1 
-Mar 12 23:08:59.019 HYPERVISOR: exec_cmd: nio create_udp udp-824a8132-c3bd-42af-898f-2bf8af48fe46 10002 127.0.0.1 10003 
-Mar 12 23:08:59.020 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-824a8132-c3bd-42af-898f-2bf8af48fe46 
-Mar 12 23:08:59.039 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-824a8132-c3bd-42af-898f-2bf8af48fe46 1 
-Mar 12 23:08:59.156 HYPERVISOR: exec_cmd: nio create_udp udp-90e55242-091c-44ce-8e45-b0078811a141 10004 127.0.0.1 10005 
-Mar 12 23:08:59.156 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-90e55242-091c-44ce-8e45-b0078811a141 
-Mar 12 23:08:59.163 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-90e55242-091c-44ce-8e45-b0078811a141 1 
-Mar 12 23:09:02.958 HYPERVISOR: exec_cmd: nio create_udp udp-7a3ab24f-bff9-4dbb-b031-c18a775f72a0 10031 127.0.0.1 10030 
-Mar 12 23:09:02.959 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-7a3ab24f-bff9-4dbb-b031-c18a775f72a0 
-Mar 12 23:09:02.970 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-7a3ab24f-bff9-4dbb-b031-c18a775f72a0 1 
+Mar 13 15:41:46.447 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 13 15:41:46.452 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58413.
+Mar 13 15:41:46.810 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 13 15:41:46.811 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 13 15:41:46.812 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 13 15:41:46.813 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\ebf4a281-8d0f-4afe-82b6-e3948f83803c 
+Mar 13 15:41:46.813 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\ebf4a281-8d0f-4afe-82b6-e3948f83803c
+Mar 13 15:41:46.814 HYPERVISOR: exec_cmd: vm create R3 3 c3725 
+Mar 13 15:41:46.821 VM: VM R3 created.
+Mar 13 15:41:46.822 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5015 
+Mar 13 15:41:46.823 HYPERVISOR: exec_cmd: c3725 get_mac_addr R3 
+Mar 13 15:41:46.824 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Mar 13 15:41:46.826 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Mar 13 15:41:46.827 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 13 15:41:46.828 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x602467a4 
+Mar 13 15:41:46.831 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 13 15:41:46.833 HYPERVISOR: exec_cmd: c3725 set_mac_addr R3 c203.3b58.0000 
+Mar 13 15:41:46.834 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Mar 13 15:41:46.836 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 13 15:41:46.836 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-16ESW 
+Mar 13 15:41:46.840 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5015 
+Mar 13 15:41:51.300 HYPERVISOR: exec_cmd: nio create_udp udp-f4cde244-fd40-456f-a9a7-c9a37eb77ce7 10026 127.0.0.1 10027 
+Mar 13 15:41:52.156 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-f4cde244-fd40-456f-a9a7-c9a37eb77ce7 
+Mar 13 15:41:52.157 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 13 15:41:53.915 HYPERVISOR: exec_cmd: nio create_udp udp-07fd49f2-babc-452f-a97a-4e26fb312dd3 10040 127.0.0.1 10041 
+Mar 13 15:41:53.926 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-07fd49f2-babc-452f-a97a-4e26fb312dd3 
+Mar 13 15:41:53.928 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 13 15:51:45.079 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 13 15:51:45.103 VM: VM Ghost created.
+Mar 13 15:51:45.105 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 13 15:51:45.107 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 13 15:51:45.108 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost' 
+Mar 13 15:51:45.110 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 13 15:51:45.112 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 13 15:51:45.113 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 13 15:51:45.493 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 13 15:51:45.586 VM: VM Ghost shutdown.
+Mar 13 15:51:45.586 VM: VM Ghost destroyed.
+Mar 13 15:51:45.609 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 13 15:51:45.615 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Mar 13 15:51:45.616 HYPERVISOR: exec_cmd: vm start R3 
+Mar 13 17:06:47.794 HYPERVISOR: exec_cmd: vm extract_config R3 
+Mar 13 17:06:47.854 HYPERVISOR: exec_cmd: vm extract_config R3 
+Mar 13 17:38:50.125 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 13 17:38:50.126 HYPERVISOR: exec_cmd: vm stop R3 
+Mar 13 17:38:50.453 VM: VM R3 shutdown.
+Mar 13 17:38:50.457 HYPERVISOR: exec_cmd: vm extract_config R3 
