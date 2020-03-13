@@ -1,0 +1,27 @@
+Mar 12 23:14:26.503 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 12 23:14:26.506 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51079.
+Mar 12 23:14:26.942 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 12 23:14:26.943 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 12 23:14:26.943 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 12 23:14:26.944 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\e9a1c0e7-731a-4add-be81-656459ebd83e 
+Mar 12 23:14:26.945 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\e9a1c0e7-731a-4add-be81-656459ebd83e
+Mar 12 23:14:26.946 HYPERVISOR: exec_cmd: vm create R5 5 c3725 
+Mar 12 23:14:26.951 VM: VM R5 created.
+Mar 12 23:14:26.952 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5019 
+Mar 12 23:14:26.953 HYPERVISOR: exec_cmd: c3725 get_mac_addr R5 
+Mar 12 23:14:26.954 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Mar 12 23:14:26.956 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Mar 12 23:14:26.957 HYPERVISOR: exec_cmd: vm get_status R5 
+Mar 12 23:14:26.957 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x602467a4 
+Mar 12 23:14:26.958 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:14:26.959 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+Mar 12 23:14:27.105 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:14:34.752 HYPERVISOR: exec_cmd: vm get_status R5 
+Mar 12 23:14:34.752 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 NM-4T 
+Mar 12 23:14:59.588 HYPERVISOR: exec_cmd: vm get_status R5 
+Mar 12 23:14:59.589 HYPERVISOR: exec_cmd: vm extract_config R5 
+Mar 12 23:14:59.590 HYPERVISOR: exec_cmd: vm delete R5 
+Mar 12 23:14:59.590 VM: VM R5 destroyed.
+Mar 12 23:14:59.603 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 12 23:14:59.980 HYPERVISOR: Stopped.
+Mar 12 23:14:59.981 GENERAL: reset done.

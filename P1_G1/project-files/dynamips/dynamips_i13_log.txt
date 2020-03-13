@@ -1,0 +1,102 @@
+Mar 12 23:15:15.330 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 12 23:15:15.331 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51153.
+Mar 12 23:15:15.805 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 12 23:15:15.806 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 12 23:15:15.806 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 12 23:15:15.807 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\0abb8273-cd97-4cc7-b401-28dc15a3aa62 
+Mar 12 23:15:15.819 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\0abb8273-cd97-4cc7-b401-28dc15a3aa62
+Mar 12 23:15:15.820 HYPERVISOR: exec_cmd: vm create R4 4 c3725 
+Mar 12 23:15:15.825 VM: VM R4 created.
+Mar 12 23:15:15.826 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Mar 12 23:15:15.827 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Mar 12 23:15:15.829 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Mar 12 23:15:15.830 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Mar 12 23:15:15.831 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:15:15.832 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x602467a4 
+Mar 12 23:15:15.834 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:15:15.835 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Mar 12 23:15:16.092 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:15:17.372 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:15:48.380 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:15:48.381 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-4T 
+Mar 12 23:16:08.701 HYPERVISOR: exec_cmd: nio create_udp udp-973c5e36-a596-4eaf-a08d-8792016091fd 10028 127.0.0.1 10029 
+Mar 12 23:16:08.969 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-973c5e36-a596-4eaf-a08d-8792016091fd 
+Mar 12 23:16:08.970 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:16:37.653 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:17:40.824 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:17:40.824 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Mar 12 23:17:52.896 HYPERVISOR: exec_cmd: nio create_udp udp-8e046cd0-ff43-4c87-b1b0-b0671f9c331d 10044 127.0.0.1 10045 
+Mar 12 23:17:52.935 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-8e046cd0-ff43-4c87-b1b0-b0671f9c331d 
+Mar 12 23:17:52.936 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:18:00.710 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:18:37.769 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 12 23:18:37.772 VM: VM Ghost created.
+Mar 12 23:18:37.773 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:18:37.774 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 12 23:18:37.775 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost' 
+Mar 12 23:18:37.775 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 12 23:18:37.776 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 12 23:18:37.777 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 12 23:18:38.081 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 12 23:18:38.193 VM: VM Ghost shutdown.
+Mar 12 23:18:38.193 VM: VM Ghost destroyed.
+Mar 12 23:18:38.215 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:18:38.219 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Mar 12 23:18:38.220 HYPERVISOR: exec_cmd: vm start R4 
+Mar 12 23:21:38.846 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 12 23:21:38.908 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 12 23:22:08.506 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:22:08.506 HYPERVISOR: exec_cmd: vm suspend R4 
+Mar 12 23:22:09.922 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:22:09.924 HYPERVISOR: exec_cmd: vm stop R4 
+Mar 12 23:22:10.079 VM: VM R4 shutdown.
+Mar 12 23:22:10.080 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 12 23:23:00.643 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:23:00.643 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 2 0 
+Mar 12 23:23:00.645 HYPERVISOR: exec_cmd: nio delete udp-8e046cd0-ff43-4c87-b1b0-b0671f9c331d 
+Mar 12 23:23:08.118 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:23:11.199 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:23:11.200 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 2 0 
+Mar 12 23:23:11.200 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:23:11.201 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-16ESW 
+Mar 12 23:23:21.621 HYPERVISOR: exec_cmd: nio create_udp udp-15ec7219-0059-4b62-8694-e9704bdce4cd 10044 127.0.0.1 10045 
+Mar 12 23:23:21.627 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-15ec7219-0059-4b62-8694-e9704bdce4cd 
+Mar 12 23:23:21.628 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:24:22.967 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 12 23:24:22.971 VM: VM Ghost created.
+Mar 12 23:24:22.973 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:24:22.974 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 12 23:24:22.974 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost' 
+Mar 12 23:24:22.975 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 12 23:24:22.975 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 12 23:24:22.976 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 12 23:24:23.295 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 12 23:24:23.411 VM: VM Ghost shutdown.
+Mar 12 23:24:23.411 VM: VM Ghost destroyed.
+Mar 12 23:24:23.450 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:24:23.459 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Mar 12 23:24:23.460 HYPERVISOR: exec_cmd: vm start R4 
+Mar 12 23:28:58.984 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:28:58.985 HYPERVISOR: exec_cmd: vm stop R4 
+Mar 12 23:28:59.178 VM: VM R4 shutdown.
+Mar 12 23:28:59.180 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 12 23:28:59.201 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:28:59.203 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Mar 12 23:28:59.205 HYPERVISOR: exec_cmd: vm start R4 
+Mar 12 23:30:20.504 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:30:20.506 HYPERVISOR: exec_cmd: vm stop R4 
+Mar 12 23:30:20.733 VM: VM R4 shutdown.
+Mar 12 23:30:20.734 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 12 23:30:30.318 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:30:30.319 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 1 0 
+Mar 12 23:30:30.320 HYPERVISOR: exec_cmd: nio delete udp-973c5e36-a596-4eaf-a08d-8792016091fd 
+Mar 12 23:30:30.384 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:30:30.385 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 2 0 
+Mar 12 23:30:30.386 HYPERVISOR: exec_cmd: nio delete udp-15ec7219-0059-4b62-8694-e9704bdce4cd 
+Mar 12 23:30:30.532 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 12 23:30:30.534 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 12 23:30:30.542 HYPERVISOR: exec_cmd: vm delete R4 
+Mar 12 23:30:30.542 VM: VM R4 destroyed.
+Mar 12 23:30:30.585 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 12 23:30:30.962 HYPERVISOR: Stopped.
+Mar 12 23:30:30.962 GENERAL: reset done.

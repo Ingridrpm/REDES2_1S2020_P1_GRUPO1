@@ -1,0 +1,85 @@
+Mar 12 23:22:25.060 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 12 23:22:25.064 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51488.
+Mar 12 23:22:25.506 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 12 23:22:25.507 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 12 23:22:25.508 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 12 23:22:25.509 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\aa38315c-1660-4140-af22-657d567a0950 
+Mar 12 23:22:25.548 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\aa38315c-1660-4140-af22-657d567a0950
+Mar 12 23:22:25.549 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Mar 12 23:22:25.555 VM: VM R2 created.
+Mar 12 23:22:25.556 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Mar 12 23:22:25.557 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Mar 12 23:22:25.558 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Mar 12 23:22:25.559 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Mar 12 23:22:25.561 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:22:25.562 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x602467a4 
+Mar 12 23:22:25.564 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:22:25.566 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Mar 12 23:22:25.788 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:22:27.529 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:22:33.953 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:22:33.954 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-4T 
+Mar 12 23:22:33.954 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:22:33.955 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-16ESW 
+Mar 12 23:22:40.599 HYPERVISOR: exec_cmd: nio create_udp udp-c6af3a1b-2612-4157-9d01-c4f92a4f9f03 10014 127.0.0.1 10015 
+Mar 12 23:22:40.882 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 2 0 udp-c6af3a1b-2612-4157-9d01-c4f92a4f9f03 
+Mar 12 23:22:40.884 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:22:47.055 HYPERVISOR: exec_cmd: nio create_udp udp-7da55208-6796-4f41-b785-aea534fc0137 10034 127.0.0.1 10035 
+Mar 12 23:22:47.060 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-7da55208-6796-4f41-b785-aea534fc0137 
+Mar 12 23:22:47.061 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:24:24.198 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 12 23:24:24.202 VM: VM Ghost created.
+Mar 12 23:24:24.203 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:24:24.204 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 12 23:24:24.205 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost' 
+Mar 12 23:24:24.206 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 12 23:24:24.207 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 12 23:24:24.208 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 12 23:24:24.620 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 12 23:24:24.982 VM: VM Ghost shutdown.
+Mar 12 23:24:24.982 VM: VM Ghost destroyed.
+Mar 12 23:24:25.008 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:24:25.012 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Mar 12 23:24:25.012 HYPERVISOR: exec_cmd: vm start R2 
+Mar 12 23:25:56.527 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:25:56.551 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:27:26.579 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:27:26.641 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:30:20.794 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:30:20.796 HYPERVISOR: exec_cmd: vm stop R2 
+Mar 12 23:30:20.957 VM: VM R2 shutdown.
+Mar 12 23:30:20.958 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:31:33.161 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:31:42.133 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 12 23:31:42.136 VM: VM Ghost created.
+Mar 12 23:31:42.138 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/toshiba/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 12 23:31:42.139 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 12 23:31:42.139 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost' 
+Mar 12 23:31:42.140 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 12 23:31:42.140 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 12 23:31:42.141 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 12 23:31:42.490 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 12 23:31:42.605 VM: VM Ghost shutdown.
+Mar 12 23:31:42.605 VM: VM Ghost destroyed.
+Mar 12 23:31:42.635 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:31:42.639 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Mar 12 23:31:42.639 HYPERVISOR: exec_cmd: vm start R2 
+Mar 12 23:36:43.509 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:36:43.574 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:42:30.374 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:42:30.377 HYPERVISOR: exec_cmd: vm stop R2 
+Mar 12 23:42:30.623 VM: VM R2 shutdown.
+Mar 12 23:42:30.625 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:42:37.636 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:42:37.637 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 1 0 
+Mar 12 23:42:37.639 HYPERVISOR: exec_cmd: nio delete udp-7da55208-6796-4f41-b785-aea534fc0137 
+Mar 12 23:42:37.960 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:42:37.966 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 2 0 
+Mar 12 23:42:37.969 HYPERVISOR: exec_cmd: nio delete udp-c6af3a1b-2612-4157-9d01-c4f92a4f9f03 
+Mar 12 23:42:38.085 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 12 23:42:38.089 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 12 23:42:38.094 HYPERVISOR: exec_cmd: vm delete R2 
+Mar 12 23:42:38.094 VM: VM R2 destroyed.
+Mar 12 23:42:38.111 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 12 23:42:38.326 HYPERVISOR: Stopped.
+Mar 12 23:42:38.326 GENERAL: reset done.

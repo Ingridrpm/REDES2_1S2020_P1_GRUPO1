@@ -1,0 +1,18 @@
+Mar 12 23:08:58.294 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 12 23:08:58.296 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50807.
+Mar 12 23:08:58.761 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 12 23:08:58.762 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 12 23:08:58.762 GENERAL: working_dir=C:\Users\toshiba\Documents\GitHub\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 12 23:08:58.763 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-3 
+Mar 12 23:08:59.255 HYPERVISOR: exec_cmd: nio create_udp udp-8fac82fb-5f29-462d-996d-8198f15bdbba 10006 127.0.0.1 10007 
+Mar 12 23:08:59.270 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-8fac82fb-5f29-462d-996d-8198f15bdbba 
+Mar 12 23:08:59.288 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-8fac82fb-5f29-462d-996d-8198f15bdbba 1 
+Mar 12 23:08:59.404 HYPERVISOR: exec_cmd: nio create_udp udp-b6ed366b-f1d0-4c6e-82c8-a938e5e43007 10008 127.0.0.1 10009 
+Mar 12 23:08:59.404 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-b6ed366b-f1d0-4c6e-82c8-a938e5e43007 
+Mar 12 23:08:59.413 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-b6ed366b-f1d0-4c6e-82c8-a938e5e43007 1 
+Mar 12 23:08:59.506 HYPERVISOR: exec_cmd: nio create_udp udp-c53c3a34-1fd3-4f3d-b7ff-44070ba66a12 10010 127.0.0.1 10011 
+Mar 12 23:08:59.507 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-c53c3a34-1fd3-4f3d-b7ff-44070ba66a12 
+Mar 12 23:08:59.517 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-c53c3a34-1fd3-4f3d-b7ff-44070ba66a12 1 
+Mar 12 23:09:03.093 HYPERVISOR: exec_cmd: nio create_udp udp-7444892a-6bec-4a9b-a536-11d5283d5c55 10033 127.0.0.1 10032 
+Mar 12 23:09:03.094 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-7444892a-6bec-4a9b-a536-11d5283d5c55 
+Mar 12 23:09:03.097 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-3 udp-7444892a-6bec-4a9b-a536-11d5283d5c55 1 
