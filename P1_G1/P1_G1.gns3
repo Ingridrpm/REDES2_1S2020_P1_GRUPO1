@@ -63,6 +63,14 @@
                 "x": 329,
                 "y": -206,
                 "z": 1
+            },
+            {
+                "drawing_id": "22356577-0659-47eb-b715-67183d1d6fb5",
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"110\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.0.0/12</text></svg>",
+                "x": -450,
+                "y": -400,
+                "z": 1
             }
         ],
         "links": [
@@ -496,37 +504,6 @@
                         },
                         "node_id": "f95b4875-90b8-4bed-9835-9a3093f70148",
                         "port_number": 4
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "1ad00450-ca02-4855-aed7-a73ab7110faf",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 36,
-                            "y": -49
-                        },
-                        "node_id": "00e300aa-175d-4ff5-a9a8-5449dc41bac3",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "nat0",
-                            "x": 80,
-                            "y": 74
-                        },
-                        "node_id": "824de85a-ba45-4c2e-b8b8-f5d4191e7988",
-                        "port_number": 0
                     }
                 ],
                 "suspend": false
@@ -971,40 +948,6 @@
                 "width": 72,
                 "x": 230,
                 "y": 293,
-                "z": 0
-            },
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_type": null,
-                "first_port_name": null,
-                "height": 71,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "NAT-1",
-                    "x": 49,
-                    "y": -25
-                },
-                "name": "NAT-1",
-                "node_id": "824de85a-ba45-4c2e-b8b8-f5d4191e7988",
-                "node_type": "nat",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "ports_mapping": [
-                        {
-                            "interface": "VMware Network Adapter VMnet8",
-                            "name": "nat0",
-                            "port_number": 0,
-                            "type": "ethernet"
-                        }
-                    ]
-                },
-                "symbol": ":/symbols/cloud.svg",
-                "width": 159,
-                "x": -67,
-                "y": -697,
                 "z": 0
             },
             {
