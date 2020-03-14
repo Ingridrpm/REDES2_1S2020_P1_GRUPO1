@@ -1,0 +1,24 @@
+!-- Dirección de red: 172.19.15.0
+!-- Gateway: 172.19.15.254
+!-- Máscara de red: 255.255.255.0
+
+Conf t
+int f0/1
+no shutdown 
+end
+
+conf t 
+interface f0/1.10
+encapsulation dot1Q 1
+ip address 172.19.15.254 255.255.255.0
+end
+
+
+conf t
+int f0/1
+ip dhcp pool VLAN1
+network 172.19.15.0 255.255.255.0
+Default-route 172.19.15.254
+End 
+
+Write
