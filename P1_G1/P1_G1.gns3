@@ -102,7 +102,7 @@
                 "drawing_id": "d8586942-2e31-4d6f-9d38-cd414c9cfbda",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"116\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.206.131</text></svg>",
+                "svg": "<svg height=\"24\" width=\"302\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.206.131 (proviene del DHCP del NAT)</text></svg>",
                 "x": 28,
                 "y": -433,
                 "z": 1
@@ -523,37 +523,6 @@
             },
             {
                 "filters": {},
-                "link_id": "ec80d70a-6e50-4fd5-98c1-5641e629b8af",
-                "nodes": [
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f2/0",
-                            "x": 31,
-                            "y": -17
-                        },
-                        "node_id": "4083cd94-8dbd-4382-94cd-39350edec711",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "Ethernet",
-                            "x": 81,
-                            "y": 74
-                        },
-                        "node_id": "01a421c9-7c8c-4812-8c51-199916dc11b1",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "b60d22ef-77ff-4987-be3c-1e4c83c8366b",
                 "nodes": [
                     {
@@ -610,6 +579,37 @@
                         },
                         "node_id": "5901754f-e6c0-4ee6-a797-e7ea8927e368",
                         "port_number": 2
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "34b981e2-41a3-420e-9843-c52f178624a4",
+                "nodes": [
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f2/0",
+                            "x": 59,
+                            "y": -8
+                        },
+                        "node_id": "4083cd94-8dbd-4382-94cd-39350edec711",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "nat0",
+                            "x": 46,
+                            "y": 72
+                        },
+                        "node_id": "eb3ebcaf-7b51-49d1-ab81-c42dc3e0c957",
+                        "port_number": 0
                     }
                 ],
                 "suspend": false
@@ -1239,65 +1239,6 @@
             },
             {
                 "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 71,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Cloud1",
-                    "x": 54,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "Cloud1",
-                "node_id": "01a421c9-7c8c-4812-8c51-199916dc11b1",
-                "node_type": "cloud",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "interfaces": [
-                        {
-                            "name": "VMware Network Adapter VMnet1",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet8",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "Wi-Fi",
-                            "special": true,
-                            "type": "ethernet"
-                        }
-                    ],
-                    "ports_mapping": [
-                        {
-                            "interface": "Ethernet",
-                            "name": "Ethernet",
-                            "port_number": 0,
-                            "type": "ethernet"
-                        }
-                    ],
-                    "remote_console_host": "",
-                    "remote_console_http_path": "/",
-                    "remote_console_port": 23,
-                    "remote_console_type": "none"
-                },
-                "symbol": ":/symbols/cloud.svg",
-                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
-                "width": 159,
-                "x": -86,
-                "y": -568,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
                 "console": 5020,
                 "console_auto_start": false,
                 "console_type": "telnet",
@@ -1355,7 +1296,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5009,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1380,6 +1321,44 @@
                 "width": 65,
                 "x": -359,
                 "y": 525,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "NAT1",
+                    "x": 59,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "NAT1",
+                "node_id": "eb3ebcaf-7b51-49d1-ab81-c42dc3e0c957",
+                "node_type": "nat",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet8",
+                            "name": "nat0",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "df8f4ea9-33b7-3e96-86a2-c39bc9bb649c",
+                "width": 159,
+                "x": -80,
+                "y": -550,
                 "z": 1
             }
         ]
