@@ -1,0 +1,84 @@
+Mar 31 19:39:16.748 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 31 19:39:16.752 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58311.
+Mar 31 19:39:17.115 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 31 19:39:17.115 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 31 19:39:17.115 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 31 19:39:17.119 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\649a6bd1-94fa-49e0-8705-684367c5f31a 
+Mar 31 19:39:17.119 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\649a6bd1-94fa-49e0-8705-684367c5f31a
+Mar 31 19:39:17.119 HYPERVISOR: exec_cmd: vm create DHCP_Server 5 c3725 
+Mar 31 19:39:17.123 VM: VM DHCP_Server created.
+Mar 31 19:39:17.127 HYPERVISOR: exec_cmd: vm set_con_tcp_port DHCP_Server 5020 
+Mar 31 19:39:17.127 HYPERVISOR: exec_cmd: c3725 get_mac_addr DHCP_Server 
+Mar 31 19:39:17.127 HYPERVISOR: exec_cmd: vm set_disk0 DHCP_Server 0 
+Mar 31 19:39:17.127 HYPERVISOR: exec_cmd: vm set_exec_area DHCP_Server 64 
+Mar 31 19:39:17.130 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 19:39:17.130 HYPERVISOR: exec_cmd: vm set_idle_pc DHCP_Server 0x60bf8ba0 
+Mar 31 19:39:17.134 HYPERVISOR: exec_cmd: vm set_ios DHCP_Server C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 31 19:39:17.134 HYPERVISOR: exec_cmd: c3725 set_mac_addr DHCP_Server c205.08ac.0000 
+Mar 31 19:39:17.138 HYPERVISOR: exec_cmd: vm set_nvram DHCP_Server 256 
+Mar 31 19:39:25.302 HYPERVISOR: exec_cmd: nio create_udp udp-4afa8fcc-9fb6-408b-856f-30646242872e 10034 127.0.0.1 10035 
+Mar 31 19:39:26.142 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP_Server 0 1 udp-4afa8fcc-9fb6-408b-856f-30646242872e 
+Mar 31 19:39:26.142 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:10:32.781 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 31 20:10:32.787 VM: VM Ghost created.
+Mar 31 20:10:32.859 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 31 20:10:32.861 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 31 20:10:32.863 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Mar 31 20:10:32.865 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 31 20:10:32.936 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 31 20:10:32.938 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 31 20:10:35.299 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 31 20:10:35.355 VM: VM Ghost shutdown.
+Mar 31 20:10:35.355 VM: VM Ghost destroyed.
+Mar 31 20:10:35.385 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:10:35.388 HYPERVISOR: exec_cmd: vm set_config DHCP_Server configs\i5_startup-config.cfg 
+Mar 31 20:10:35.389 HYPERVISOR: exec_cmd: vm start DHCP_Server 
+Mar 31 20:10:59.732 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 31 20:10:59.736 VM: VM Ghost created.
+Mar 31 20:10:59.738 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 31 20:10:59.738 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 31 20:10:59.739 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Mar 31 20:10:59.740 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 31 20:10:59.741 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 31 20:10:59.741 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 31 20:11:00.136 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 31 20:11:00.194 VM: VM Ghost shutdown.
+Mar 31 20:11:00.194 VM: VM Ghost destroyed.
+Mar 31 20:11:00.209 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:11:06.850 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:11:06.909 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:14:15.441 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:14:15.444 HYPERVISOR: exec_cmd: vm stop DHCP_Server 
+Mar 31 20:14:15.738 VM: VM DHCP_Server shutdown.
+Mar 31 20:14:15.742 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:14:15.754 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:14:15.759 HYPERVISOR: exec_cmd: vm set_config DHCP_Server configs\i5_startup-config.cfg 
+Mar 31 20:14:15.761 HYPERVISOR: exec_cmd: vm start DHCP_Server 
+Mar 31 20:14:47.227 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:14:47.231 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:58:29.920 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:58:29.923 HYPERVISOR: exec_cmd: vm stop DHCP_Server 
+Mar 31 20:58:30.059 VM: VM DHCP_Server shutdown.
+Mar 31 20:58:30.060 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:58:45.172 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:58:45.177 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:59:22.467 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 31 20:59:22.480 VM: VM Ghost created.
+Mar 31 20:59:22.482 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 31 20:59:22.483 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 31 20:59:22.483 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Mar 31 20:59:22.484 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 31 20:59:22.584 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 31 20:59:22.584 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 31 20:59:24.605 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 31 20:59:24.791 VM: VM Ghost shutdown.
+Mar 31 20:59:24.792 VM: VM Ghost destroyed.
+Mar 31 20:59:24.822 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 20:59:24.825 HYPERVISOR: exec_cmd: vm set_config DHCP_Server configs\i5_startup-config.cfg 
+Mar 31 20:59:24.826 HYPERVISOR: exec_cmd: vm start DHCP_Server 
+Mar 31 20:59:58.222 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 20:59:58.229 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 
+Mar 31 21:11:23.171 HYPERVISOR: exec_cmd: vm get_status DHCP_Server 
+Mar 31 21:11:23.172 HYPERVISOR: exec_cmd: vm stop DHCP_Server 
+Mar 31 21:11:23.260 VM: VM DHCP_Server shutdown.
+Mar 31 21:11:23.262 HYPERVISOR: exec_cmd: vm extract_config DHCP_Server 

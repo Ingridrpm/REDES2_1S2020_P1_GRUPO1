@@ -1,0 +1,21 @@
+Mar 31 19:39:12.324 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 31 19:39:12.328 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58282.
+Mar 31 19:39:12.465 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 31 19:39:12.465 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 31 19:39:12.642 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 31 19:39:12.646 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Mar 31 19:39:20.960 HYPERVISOR: exec_cmd: nio create_udp udp-9e49a8fc-ec2f-4cf8-af07-313c63629532 10010 127.0.0.1 10011 
+Mar 31 19:39:20.964 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-9e49a8fc-ec2f-4cf8-af07-313c63629532 
+Mar 31 19:39:20.976 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-1 udp-9e49a8fc-ec2f-4cf8-af07-313c63629532 1 
+Mar 31 19:39:21.167 HYPERVISOR: exec_cmd: nio create_udp udp-27fe4a98-758e-4ffc-8d98-2c329dfd8aa1 10012 127.0.0.1 10013 
+Mar 31 19:39:21.171 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-27fe4a98-758e-4ffc-8d98-2c329dfd8aa1 
+Mar 31 19:39:21.187 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-1 udp-27fe4a98-758e-4ffc-8d98-2c329dfd8aa1 1 
+Mar 31 19:39:28.152 HYPERVISOR: exec_cmd: nio create_udp udp-c7aaf919-85cc-4d40-90d9-bd7d46f0a66f 10042 127.0.0.1 10043 
+Mar 31 19:39:28.156 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-c7aaf919-85cc-4d40-90d9-bd7d46f0a66f 
+Mar 31 19:39:28.168 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-1 udp-c7aaf919-85cc-4d40-90d9-bd7d46f0a66f 1 
+Mar 31 19:39:28.355 HYPERVISOR: exec_cmd: nio create_udp udp-4f0ee9b4-d061-48b5-9a58-4c39e29220ce 10046 127.0.0.1 10047 
+Mar 31 19:39:28.359 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-4f0ee9b4-d061-48b5-9a58-4c39e29220ce 
+Mar 31 19:39:28.379 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-1 udp-4f0ee9b4-d061-48b5-9a58-4c39e29220ce 1 
+Mar 31 19:39:28.562 HYPERVISOR: exec_cmd: nio create_udp udp-45c25232-babc-4ec5-8694-c6fd0a939bad 10050 127.0.0.1 10051 
+Mar 31 19:39:28.566 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-45c25232-babc-4ec5-8694-c6fd0a939bad 
+Mar 31 19:39:28.589 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-1 udp-45c25232-babc-4ec5-8694-c6fd0a939bad 1 

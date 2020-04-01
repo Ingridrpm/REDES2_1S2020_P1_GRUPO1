@@ -21,7 +21,7 @@
                 "drawing_id": "f8358b9d-79da-4f93-95cc-605e4922c594",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"122\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.10.2</text></svg>",
+                "svg": "<svg height=\"24\" width=\"92\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.10.2</text></svg>",
                 "x": -121,
                 "y": -165,
                 "z": 1
@@ -39,7 +39,7 @@
                 "drawing_id": "560be547-bfff-4258-94d2-8d11a71d1d9b",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"122\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.20.2</text></svg>",
+                "svg": "<svg height=\"24\" width=\"92\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.20.2</text></svg>",
                 "x": 262,
                 "y": -165,
                 "z": 1
@@ -111,7 +111,7 @@
                 "drawing_id": "3d6d6009-ac20-4712-b965-d9fdaf7d2902",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"71\" width=\"273\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Direcci\u00f3n de red: 172.19.15.0\nGateway: 172.19.15.254\nM\u00e1scara de red: 255.255.255.0</text></svg>",
+                "svg": "<svg height=\"56\" width=\"210\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Direcci\u00f3n de red: 172.19.15.0\nGateway: 172.19.15.254\nM\u00e1scara de red: 255.255.255.0</text></svg>",
                 "x": 455,
                 "y": 618,
                 "z": 2
@@ -870,9 +870,10 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet5",
                             "port_number": 5,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {

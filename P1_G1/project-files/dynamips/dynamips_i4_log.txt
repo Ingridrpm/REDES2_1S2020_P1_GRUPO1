@@ -1,0 +1,75 @@
+Mar 31 19:39:14.210 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 31 19:39:14.214 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58299.
+Mar 31 19:39:14.573 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 31 19:39:14.573 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 31 19:39:14.573 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 31 19:39:14.577 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\4083cd94-8dbd-4382-94cd-39350edec711 
+Mar 31 19:39:14.577 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\4083cd94-8dbd-4382-94cd-39350edec711
+Mar 31 19:39:14.577 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Mar 31 19:39:14.651 VM: VM R1 created.
+Mar 31 19:39:14.674 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5011 
+Mar 31 19:39:14.674 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Mar 31 19:39:14.678 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Mar 31 19:39:14.678 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Mar 31 19:39:14.678 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 19:39:14.678 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x602467a4 
+Mar 31 19:39:14.682 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 31 19:39:14.686 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.2f70.0000 
+Mar 31 19:39:14.702 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Mar 31 19:39:14.702 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Mar 31 19:39:14.702 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 19:39:14.706 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Mar 31 19:39:14.706 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 19:39:14.706 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Mar 31 19:39:21.363 HYPERVISOR: exec_cmd: nio create_udp udp-0b949f18-8ee1-47b0-93da-e10f2e6baeba 10016 127.0.0.1 10017 
+Mar 31 19:39:22.206 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-0b949f18-8ee1-47b0-93da-e10f2e6baeba 
+Mar 31 19:39:22.210 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 19:39:23.245 HYPERVISOR: exec_cmd: nio create_udp udp-09bf7e5a-df9a-4b8f-a4d7-ee20ddea3c32 10022 127.0.0.1 10023 
+Mar 31 19:39:23.253 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-09bf7e5a-df9a-4b8f-a4d7-ee20ddea3c32 
+Mar 31 19:39:23.253 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 19:39:24.283 HYPERVISOR: exec_cmd: nio create_udp udp-9b5f0009-4c1e-44f9-97d4-f7ed929382e2 10028 127.0.0.1 10029 
+Mar 31 19:39:24.291 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-9b5f0009-4c1e-44f9-97d4-f7ed929382e2 
+Mar 31 19:39:24.295 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 19:39:26.540 HYPERVISOR: exec_cmd: nio create_udp udp-1ad290da-d7cc-416b-b2d7-f55a6a31d3ed 10040 127.0.0.1 10041 
+Mar 31 19:39:26.548 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 0 udp-1ad290da-d7cc-416b-b2d7-f55a6a31d3ed 
+Mar 31 19:39:26.548 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 20:06:54.316 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 31 20:06:54.323 VM: VM Ghost created.
+Mar 31 20:06:54.327 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 31 20:06:54.328 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 31 20:06:54.330 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-256.ghost' 
+Mar 31 20:06:54.332 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Mar 31 20:06:54.333 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 31 20:06:54.335 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 31 20:06:54.336 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 31 20:06:54.724 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 31 20:06:54.779 VM: VM Ghost shutdown.
+Mar 31 20:06:54.779 VM: VM Ghost destroyed.
+Mar 31 20:06:54.800 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 20:06:54.807 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Mar 31 20:06:54.808 HYPERVISOR: exec_cmd: vm start R1 
+Mar 31 20:58:29.117 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 20:58:29.132 HYPERVISOR: exec_cmd: vm stop R1 
+Mar 31 20:58:29.693 VM: VM R1 shutdown.
+Mar 31 20:58:29.694 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 31 20:58:45.096 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 20:58:45.103 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 31 20:59:11.858 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 31 20:59:11.861 VM: VM Ghost created.
+Mar 31 20:59:11.863 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Daniel De León/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 31 20:59:11.864 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 31 20:59:11.864 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-256.ghost' 
+Mar 31 20:59:11.865 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Mar 31 20:59:11.866 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 31 20:59:11.867 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 31 20:59:11.867 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 31 20:59:12.196 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 31 20:59:12.301 VM: VM Ghost shutdown.
+Mar 31 20:59:12.301 VM: VM Ghost destroyed.
+Mar 31 20:59:12.364 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 20:59:12.368 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Mar 31 20:59:12.369 HYPERVISOR: exec_cmd: vm start R1 
+Mar 31 21:11:22.643 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 31 21:11:22.644 HYPERVISOR: exec_cmd: vm stop R1 
+Mar 31 21:11:22.967 VM: VM R1 shutdown.
+Mar 31 21:11:22.969 HYPERVISOR: exec_cmd: vm extract_config R1 

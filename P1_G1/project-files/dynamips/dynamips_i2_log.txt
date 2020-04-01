@@ -1,0 +1,21 @@
+Mar 31 19:39:12.826 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 31 19:39:12.830 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58287.
+Mar 31 19:39:13.195 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 31 19:39:13.195 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips 
+Mar 31 19:39:13.195 GENERAL: working_dir=C:\Redes2\REDES2_1S2020_P1_GRUPO1\P1_G1\project-files\dynamips
+Mar 31 19:39:13.198 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-2 
+Mar 31 19:39:20.137 HYPERVISOR: exec_cmd: nio create_udp udp-ace00254-2a13-485e-b7f7-48a86d548015 10000 127.0.0.1 10001 
+Mar 31 19:39:20.140 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-ace00254-2a13-485e-b7f7-48a86d548015 
+Mar 31 19:39:20.156 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ace00254-2a13-485e-b7f7-48a86d548015 1 
+Mar 31 19:39:20.312 HYPERVISOR: exec_cmd: nio create_udp udp-58f6e495-c617-429a-8ab9-1d78611e93b0 10002 127.0.0.1 10003 
+Mar 31 19:39:20.312 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-58f6e495-c617-429a-8ab9-1d78611e93b0 
+Mar 31 19:39:20.320 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-58f6e495-c617-429a-8ab9-1d78611e93b0 1 
+Mar 31 19:39:21.007 HYPERVISOR: exec_cmd: nio create_udp udp-2bffeb2d-19ed-4ee0-b9ed-2682c6767409 10011 127.0.0.1 10010 
+Mar 31 19:39:21.007 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-2bffeb2d-19ed-4ee0-b9ed-2682c6767409 
+Mar 31 19:39:21.023 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-2bffeb2d-19ed-4ee0-b9ed-2682c6767409 1 
+Mar 31 19:39:26.376 HYPERVISOR: exec_cmd: nio create_udp udp-b4efec20-7d8e-4e86-be8b-9931d9d10291 10037 127.0.0.1 10036 
+Mar 31 19:39:26.376 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-b4efec20-7d8e-4e86-be8b-9931d9d10291 
+Mar 31 19:39:26.388 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-b4efec20-7d8e-4e86-be8b-9931d9d10291 1 
+Mar 31 19:39:28.773 HYPERVISOR: exec_cmd: nio create_udp udp-e650afe4-d9c4-45b1-995f-ad7126686b11 10054 127.0.0.1 10055 
+Mar 31 19:39:28.773 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-e650afe4-d9c4-45b1-995f-ad7126686b11 
+Mar 31 19:39:28.777 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-e650afe4-d9c4-45b1-995f-ad7126686b11 1 
